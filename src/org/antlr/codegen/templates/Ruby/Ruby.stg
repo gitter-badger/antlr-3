@@ -920,7 +920,7 @@ cyclicDFAState(decisionNumber,stateNumber,edges,needErrorClause,semPredState)::=
 	<if(semPredState)>
 	@input.rewind(0)
 	<else>
-	look_ahead_<decisionNumber>_<stateNumber> = <LA(1)>
+	look_ahead<decisionNumber>_<stateNumber> = <LA(1)>
 	<endif>
 	s = -1
 	<edges>
